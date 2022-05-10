@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db import get_session
 from app.models import Product, ProductReadDTO, Category, ProductUpdateDTO
-from project.app.models import ProductCreateDTO, ProductReadDTO
+from app.models import ProductCreateDTO, ProductReadDTO
 
 app = FastAPI()
 
